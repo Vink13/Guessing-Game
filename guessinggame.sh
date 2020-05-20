@@ -18,5 +18,5 @@ do
 	fi
 done
 
-echo "Congratulations! You got it! There are $num_files files in this directory"
+echo "Congratulations! There are $num_files files in this directory"
 
