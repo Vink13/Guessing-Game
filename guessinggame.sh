@@ -2,7 +2,7 @@ dir="$(pwd)"
 files () {
 	ls -1 | wc -l
 }
-num_files=$( files $dir)
+num_files=$(files $dir)
 echo "Hello friend. Can you guess the number of files in this directory?"
 read response
 while [[ $response != $num_files ]]
